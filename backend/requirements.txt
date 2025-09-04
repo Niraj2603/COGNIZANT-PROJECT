@@ -1,0 +1,28 @@
+# Flask Web Framework and Extensions
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.1.1
+# Database
+SQLAlchemy==2.0.23
+PyMySQL==1.1.0
+# JWT Authentication
+PyJWT==2.8.0
+# Password Hashing (comes with Werkzeug/Flask but explicitly listing)
+Werkzeug==3.0.1
+# LangChain AI Framework
+langchain==0.2.16
+langchain-openai==0.1.25
+langchain-community==0.2.16
+langchain-core==0.2.43
+langchain-text-splitters==0.2.4
+# OpenAI and Azure OpenAI
+openai==1.54.4
+python-dotenv==1.0.0
+# HTTP Requests and API Communication
+requests==2.32.5
+httpx==0.24.1
+# Azure Blob Storage for SOP Documents
+azure-storage-blob==12.19.0
+azure-core==1.29.5
+# Environment Variables
+python-dotenv==1.0.0

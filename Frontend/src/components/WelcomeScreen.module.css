@@ -1,0 +1,201 @@
+.welcomeScreen {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl);
+  overflow-y: auto;
+}
+
+.welcomeContent {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.welcomeLogo {
+  margin-bottom: var(--space-xl);
+}
+
+.logoIcon {
+  font-size: 4rem;
+  background: linear-gradient(45deg, var(--color-teal-500), var(--color-teal-600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: var(--space-md);
+}
+
+.welcomeLogo h1 {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.welcomeDescription {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-2xl) 0;
+}
+
+.quickPromptsGrid {
+  margin-bottom: var(--space-2xl);
+}
+
+.quickPromptsGrid h3 {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0 0 var(--space-lg) 0;
+}
+
+.promptsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+
+.promptCard {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.promptCard:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.promptCard:active {
+  transform: translateY(0);
+}
+
+.promptTitle {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
+
+.promptDescription {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+.systemStatusOverview {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+}
+
+.systemStatusOverview h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0 0 var(--space-md) 0;
+}
+
+.statusIndicators {
+  display: flex;
+  justify-content: space-around;
+  gap: var(--space-lg);
+}
+
+.statusItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.statusDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.statusDot.good {
+  background-color: var(--color-success);
+  box-shadow: 0 0 10px rgba(var(--color-success-rgb), 0.3);
+}
+
+.statusDot.warning {
+  background-color: var(--color-warning);
+  box-shadow: 0 0 10px rgba(var(--color-warning-rgb), 0.3);
+}
+
+.statusDot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .welcomeScreen {
+    padding: var(--space-lg);
+  }
+  
+  .promptsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .statusIndicators {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  
+  .logoIcon {
+    font-size: 3rem;
+  }
+  
+  .welcomeLogo h1 {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .welcomeScreen {
+    padding: var(--space-md);
+  }
+  
+  .promptCard {
+    padding: var(--space-md);
+  }
+  
+  .systemStatusOverview {
+    padding: var(--space-md);
+  }
+}

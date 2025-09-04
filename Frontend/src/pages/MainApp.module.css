@@ -1,0 +1,12 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--color-background);
+}
+
+.appBody {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
