@@ -1,0 +1,971 @@
+1. Daily Interval Read Success Percentage
+ 
+KPI Name: DailyIntervalReadSuccessPercentage
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyIntervalReadSuccessPercentage&interval=Daily
+
+
+error
+ 
+---------------------------------------------------------------------------
+
+2. Daily Register Read Success Percentage
+ 
+KPI Name: DailyRegisterReadSuccessPercentage
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyRegisterReadSuccessPercentage&interval=Daily
+
+error
+---------------------------------------------------------------------------
+3. Daily Interval Read Success Percentage By Commodity Type (Last 7 Days)
+ 
+KPI Name: DailyIntervalReadSuccessPercentageByCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyIntervalReadSuccessPercentageByCommodityType&dataFilterCriteria=(MeterCommodityType=E)&startTime=08-04-2025%2000:00:00&endTime=08-11-2025%2000:00:00&interval=Daily
+
+
+[
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.7760193133047,
+    "startTime": "2025-08-10T00:00:00Z",
+    "endTime": "2025-08-11T00:00:00Z",
+    "timestamp": "2025-08-11T03:53:26.162Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754884351,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14690633,
+      "creationTime": "2025-08-11T03:52:31Z"
+    },
+    "createdAt": "2025-08-11T03:52:31Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.8900214592275,
+    "startTime": "2025-08-09T00:00:00Z",
+    "endTime": "2025-08-10T00:00:00Z",
+    "timestamp": "2025-08-10T03:55:01.57Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754798046,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14658257,
+      "creationTime": "2025-08-10T03:54:06Z"
+    },
+    "createdAt": "2025-08-10T03:54:06Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.6217811158798,
+    "startTime": "2025-08-08T00:00:00Z",
+    "endTime": "2025-08-09T00:00:00Z",
+    "timestamp": "2025-08-09T03:53:02.103Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754711532,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14625781,
+      "creationTime": "2025-08-09T03:52:12Z"
+    },
+    "createdAt": "2025-08-09T03:52:12Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.8497854077253,
+    "startTime": "2025-08-07T00:00:00Z",
+    "endTime": "2025-08-08T00:00:00Z",
+    "timestamp": "2025-08-08T03:53:24.364Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754625087,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14593386,
+      "creationTime": "2025-08-08T03:51:27Z"
+    },
+    "createdAt": "2025-08-08T03:51:27Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 95.1336731044349,
+    "startTime": "2025-08-06T00:00:00Z",
+    "endTime": "2025-08-07T00:00:00Z",
+    "timestamp": "2025-08-07T03:52:46.078Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754538707,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14560252,
+      "creationTime": "2025-08-07T03:51:47Z"
+    },
+    "createdAt": "2025-08-07T03:51:47Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.7514306151645,
+    "startTime": "2025-08-05T00:00:00Z",
+    "endTime": "2025-08-06T00:00:00Z",
+    "timestamp": "2025-08-06T03:52:12.394Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754452278,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14527876,
+      "creationTime": "2025-08-06T03:51:18Z"
+    },
+    "createdAt": "2025-08-06T03:51:18Z"
+  },
+  {
+    "kpiId": "d7a08d61-dc42-4123-80b1-3a8abede05d8",
+    "kpiName": "DailyIntervalReadSuccessPercentageByCommodityType",
+    "value": 94.3669527896996,
+    "startTime": "2025-08-04T00:00:00Z",
+    "endTime": "2025-08-05T00:00:00Z",
+    "timestamp": "2025-08-05T03:53:52.839Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754365985,
+      "machine": 13382762,
+      "pid": 29437,
+      "increment": 12562670,
+      "creationTime": "2025-08-05T03:53:05Z"
+    },
+    "createdAt": "2025-08-05T03:53:05Z"
+  }
+]
+
+---------------------------------------------------------------------------
+
+ 
+4. Daily Register Read Success Percentage By Commodity Type (Last 7 Days)
+ 
+KPI Name: DailyRegisterReadSuccessPercentageByCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyRegisterReadSuccessPercentageByCommodityType&dataFilterCriteria=(MeterCommodityType=E)&startTime=08-04-2025%2000:00:00&endTime=08-11-2025%2000:00:00&interval=Daily
+
+[
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-10T00:00:00Z",
+    "endTime": "2025-08-11T00:00:00Z",
+    "timestamp": "2025-08-11T03:53:35.184Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754884360,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14690695,
+      "creationTime": "2025-08-11T03:52:40Z"
+    },
+    "createdAt": "2025-08-11T03:52:40Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-09T00:00:00Z",
+    "endTime": "2025-08-10T00:00:00Z",
+    "timestamp": "2025-08-10T03:55:10.576Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754798055,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14658320,
+      "creationTime": "2025-08-10T03:54:15Z"
+    },
+    "createdAt": "2025-08-10T03:54:15Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-08T00:00:00Z",
+    "endTime": "2025-08-09T00:00:00Z",
+    "timestamp": "2025-08-09T03:53:13.861Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754711541,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14625844,
+      "creationTime": "2025-08-09T03:52:21Z"
+    },
+    "createdAt": "2025-08-09T03:52:21Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-07T00:00:00Z",
+    "endTime": "2025-08-08T00:00:00Z",
+    "timestamp": "2025-08-08T03:53:33.617Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754625096,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14593448,
+      "creationTime": "2025-08-08T03:51:36Z"
+    },
+    "createdAt": "2025-08-08T03:51:36Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-06T00:00:00Z",
+    "endTime": "2025-08-07T00:00:00Z",
+    "timestamp": "2025-08-07T03:52:55.155Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754538716,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14560315,
+      "creationTime": "2025-08-07T03:51:56Z"
+    },
+    "createdAt": "2025-08-07T03:51:56Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-05T00:00:00Z",
+    "endTime": "2025-08-06T00:00:00Z",
+    "timestamp": "2025-08-06T03:52:21.504Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754452287,
+      "machine": 14187290,
+      "pid": -6467,
+      "increment": 14527939,
+      "creationTime": "2025-08-06T03:51:27Z"
+    },
+    "createdAt": "2025-08-06T03:51:27Z"
+  },
+  {
+    "kpiId": "fa2dd3d9-e979-4ccf-9f87-c1145ed3aaf0",
+    "kpiName": "DailyRegisterReadSuccessPercentageByCommodityType",
+    "value": 100,
+    "startTime": "2025-08-04T00:00:00Z",
+    "endTime": "2025-08-05T00:00:00Z",
+    "timestamp": "2025-08-05T03:54:06.066Z",
+    "unit": "%",
+    "interval": "Daily",
+    "dataFilterCriteria": {
+      "zoneId": null,
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1754365994,
+      "machine": 13382762,
+      "pid": 29437,
+      "increment": 12562733,
+      "creationTime": "2025-08-05T03:53:14Z"
+    },
+    "createdAt": "2025-08-05T03:53:14Z"
+  }
+]
+
+---------------------------------------------------------------------------
+ 
+5. Daily Interval Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: DailyIntervalReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyIntervalReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Daily
+ 
+error
+
+---------------------------------------------------------------------------
+
+6. Weekly Interval Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Weekly
+
+[
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 94.035350177305,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:36.573Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "11852150-1fe1-4d7a-ba57-84a31af92b55",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783954,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080002,
+      "creationTime": "2025-09-02T03:32:34Z"
+    },
+    "createdAt": "2025-09-02T03:32:34Z"
+  },
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:36.551Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "1091d1bd-b146-461c-bd33-eb25a5d95787",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783954,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080005,
+      "creationTime": "2025-09-02T03:32:34Z"
+    },
+    "createdAt": "2025-09-02T03:32:34Z"
+  },
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 93.98193359375,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:35.545Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "427917a2-e104-455f-8f29-36cef60a86c6",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783954,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080007,
+      "creationTime": "2025-09-02T03:32:34Z"
+    },
+    "createdAt": "2025-09-02T03:32:34Z"
+  },
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 93.8388480392157,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:36.557Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "efba1047-90d1-4f6f-a5c9-a4b40176e150",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783955,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080008,
+      "creationTime": "2025-09-02T03:32:35Z"
+    },
+    "createdAt": "2025-09-02T03:32:35Z"
+  },
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 94.3366690074906,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:36.568Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "3668467f-3f94-4486-bcc1-cbb1aa16d015",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783955,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080009,
+      "creationTime": "2025-09-02T03:32:35Z"
+    },
+    "createdAt": "2025-09-02T03:32:35Z"
+  },
+  {
+    "kpiId": "462d659d-cddc-40d7-af1f-0df03c22d000",
+    "kpiName": "WeeklyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:35.56Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "6f5a70ef-dc5c-4efa-83ca-efa1590873b7",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783955,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080010,
+      "creationTime": "2025-09-02T03:32:35Z"
+    },
+    "createdAt": "2025-09-02T03:32:35Z"
+  }
+]
+
+---------------------------------------------------------------------------
+ 
+7. Monthly Interval Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Monthly
+ 
+[
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 94.4557150783743,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:47.526Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "3668467f-3f94-4486-bcc1-cbb1aa16d015",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783903,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078464,
+      "creationTime": "2025-09-02T03:31:43Z"
+    },
+    "createdAt": "2025-09-02T03:31:43Z"
+  },
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 93.8494646990741,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:47.54Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "427917a2-e104-455f-8f29-36cef60a86c6",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783903,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078465,
+      "creationTime": "2025-09-02T03:31:43Z"
+    },
+    "createdAt": "2025-09-02T03:31:43Z"
+  },
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:46.527Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "1091d1bd-b146-461c-bd33-eb25a5d95787",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783904,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078471,
+      "creationTime": "2025-09-02T03:31:44Z"
+    },
+    "createdAt": "2025-09-02T03:31:44Z"
+  },
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:46.548Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "6f5a70ef-dc5c-4efa-83ca-efa1590873b7",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783904,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078473,
+      "creationTime": "2025-09-02T03:31:44Z"
+    },
+    "createdAt": "2025-09-02T03:31:44Z"
+  },
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 94.1990084055687,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:46.554Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "11852150-1fe1-4d7a-ba57-84a31af92b55",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783904,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078474,
+      "creationTime": "2025-09-02T03:31:44Z"
+    },
+    "createdAt": "2025-09-02T03:31:44Z"
+  },
+  {
+    "kpiId": "6fcbf62c-7af8-451c-821f-5b5828bc6d41",
+    "kpiName": "MonthlyIntervalReadSuccessPercentageByZoneAndCommodityType",
+    "value": 94.0182461873638,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:32:47.532Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "efba1047-90d1-4f6f-a5c9-a4b40176e150",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783904,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13078475,
+      "creationTime": "2025-09-02T03:31:44Z"
+    },
+    "createdAt": "2025-09-02T03:31:44Z"
+  }
+]
+
+---------------------------------------------------------------------------
+
+8. Daily Register Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: DailyRegisterReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=DailyRegisterReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Daily
+
+ERROR -404
+
+---------------------------------------------------------------------------
+ 
+9. Weekly Register Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Weekly
+ 
+[
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:34:00.571Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "3668467f-3f94-4486-bcc1-cbb1aa16d015",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783982,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080067,
+      "creationTime": "2025-09-02T03:33:02Z"
+    },
+    "createdAt": "2025-09-02T03:33:02Z"
+  },
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:34:00.579Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "efba1047-90d1-4f6f-a5c9-a4b40176e150",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783983,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080071,
+      "creationTime": "2025-09-02T03:33:03Z"
+    },
+    "createdAt": "2025-09-02T03:33:03Z"
+  },
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:34:00.586Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "11852150-1fe1-4d7a-ba57-84a31af92b55",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783983,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080072,
+      "creationTime": "2025-09-02T03:33:03Z"
+    },
+    "createdAt": "2025-09-02T03:33:03Z"
+  },
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:59.564Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "1091d1bd-b146-461c-bd33-eb25a5d95787",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783983,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080074,
+      "creationTime": "2025-09-02T03:33:03Z"
+    },
+    "createdAt": "2025-09-02T03:33:03Z"
+  },
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:59.594Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "6f5a70ef-dc5c-4efa-83ca-efa1590873b7",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783984,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080076,
+      "creationTime": "2025-09-02T03:33:04Z"
+    },
+    "createdAt": "2025-09-02T03:33:04Z"
+  },
+  {
+    "kpiId": "0c770f22-d2f8-4008-acc0-b3d2691da1ea",
+    "kpiName": "WeeklyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-26T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:34:00.564Z",
+    "unit": "%",
+    "interval": "Weekly",
+    "dataFilterCriteria": {
+      "zoneId": "427917a2-e104-455f-8f29-36cef60a86c6",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783984,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13080077,
+      "creationTime": "2025-09-02T03:33:04Z"
+    },
+    "createdAt": "2025-09-02T03:33:04Z"
+  }
+]
+
+---------------------------------------------------------------------------
+
+
+10. Monthly Register Read Success Percentage By Zone And Commodity Type
+ 
+KPI Name: MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType
+Link: https://irenoakscluster.westus.cloudapp.azure.com/kpimgmt/v1/kpi?kpiName=MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType&dataFilterCriteria=(MeterCommodityType=E)&interval=Monthly
+
+[
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:12.569Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "11852150-1fe1-4d7a-ba57-84a31af92b55",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783928,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079939,
+      "creationTime": "2025-09-02T03:32:08Z"
+    },
+    "createdAt": "2025-09-02T03:32:08Z"
+  },
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:13.559Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "6f5a70ef-dc5c-4efa-83ca-efa1590873b7",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783928,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079943,
+      "creationTime": "2025-09-02T03:32:08Z"
+    },
+    "createdAt": "2025-09-02T03:32:08Z"
+  },
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:13.566Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "427917a2-e104-455f-8f29-36cef60a86c6",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783928,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079944,
+      "creationTime": "2025-09-02T03:32:08Z"
+    },
+    "createdAt": "2025-09-02T03:32:08Z"
+  },
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:13.552Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "1091d1bd-b146-461c-bd33-eb25a5d95787",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783929,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079947,
+      "creationTime": "2025-09-02T03:32:09Z"
+    },
+    "createdAt": "2025-09-02T03:32:09Z"
+  },
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:12.535Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "efba1047-90d1-4f6f-a5c9-a4b40176e150",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783929,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079948,
+      "creationTime": "2025-09-02T03:32:09Z"
+    },
+    "createdAt": "2025-09-02T03:32:09Z"
+  },
+  {
+    "kpiId": "0ce215e4-dba5-4e90-8dda-7f8373516be4",
+    "kpiName": "MonthlyRegisterReadSuccessPercentageByZoneAndCommodityType",
+    "value": 100,
+    "startTime": "2025-08-02T00:00:00Z",
+    "endTime": "2025-09-02T00:00:00Z",
+    "timestamp": "2025-09-02T03:33:11.692Z",
+    "unit": "%",
+    "interval": "Monthly",
+    "dataFilterCriteria": {
+      "zoneId": "3668467f-3f94-4486-bcc1-cbb1aa16d015",
+      "meterCommodityType": "E",
+      "meterAlarmEventTypeName": null
+    },
+    "id": {
+      "timestamp": 1756783929,
+      "machine": 2085414,
+      "pid": -2408,
+      "increment": 13079950,
+      "creationTime": "2025-09-02T03:32:09Z"
+    },
+    "createdAt": "2025-09-02T03:32:09Z"
+  }
+]
+
+---------------------------------------------------------------------------
